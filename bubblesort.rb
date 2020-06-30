@@ -14,9 +14,6 @@
 
 
 def bubblesort(array)
-  if array.length <= 1
-    return array
-  end
   length = array.length - 1
   loop do 
     counter = false
@@ -32,5 +29,31 @@ def bubblesort(array)
 end
 
 
+#bubblesort_by pseudocode
+#this array accepts a block, raise an error if no block is given
+#the block should have two arguments that will be compared against each other
+#use yield to accept this 
+#after comparison, check if the argument is negative, if so, the element on the left is smaller
+#if positive, the element on the left is bigger
+#if 0, they are equal
+#return the array
+
+def bubble_sort_by(array)
+  return "no block is given" unless block_given?
+  x = array.length
+  loop do 
+    counter = false
+    (x-1).times do |n|
+      if yield(array[n], array[n+1]).positive?
+        counter = true
+        array[n], array[n+1]= array[n+1], array[n]        
+      end
+    end
+    break unless counter
+  end
+  array 
+end
+
+p bubble_sort_by(["hi","hello","hey"]){ |left,right| left.length - right.length}
 p bubblesort([5, 4, 3, 2, 1])
 
