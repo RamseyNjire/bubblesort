@@ -2,8 +2,6 @@
 
 > We implemented the bubble sort algorithm. Once to accept a simple array, and once with the ability to accept a code block supplied by the method caller.
 
-Additional description about the project and its features.
-
 ## Built With
 
 - Ruby

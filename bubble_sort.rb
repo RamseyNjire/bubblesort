@@ -1,19 +1,4 @@
-#[5, 4, 3, 2, 1]
-#sets counter to false
-#set value of length as array.length - 1
-#[5, 4, 3, 2, 1]
-#[4, 5, 3, 2, 1]
-#change counter to true
-#[4, 3, 5, 2, 1]
-#changes counter to true
-#[4, 3, 2, 5, 1]
-#changes counter to true
-#[4, 3, 2, 1, 5]
-#changes counter to true
-
-
-
-def bubblesort(array)
+def bubble_sort(array)
   length = array.length - 1
   loop do 
     counter = false
@@ -29,14 +14,7 @@ def bubblesort(array)
 end
 
 
-#bubblesort_by pseudocode
-#this array accepts a block, raise an error if no block is given
-#the block should have two arguments that will be compared against each other
-#use yield to accept this 
-#after comparison, check if the argument is negative, if so, the element on the left is smaller
-#if positive, the element on the left is bigger
-#if 0, they are equal
-#return the array
+
 
 def bubble_sort_by(array)
   return "no block is given" unless block_given?
