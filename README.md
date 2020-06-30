@@ -19,7 +19,6 @@ Additional description about the project and its features.
 👤 **Author2**
 
 - Github: [@mimipeshy](https://github.com/mimipeshy)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [Peris Ndanu](https://www.linkedin.com/in/peris-ndanu-405083193/)
 
 ## 📝 License
