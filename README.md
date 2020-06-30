@@ -14,7 +14,7 @@
 - Twitter: [@untakenramram](https://twitter.com/untakenramram)
 - Linkedin: [Ramsey Njire](https://www.linkedin.com/in/ramsey-njire-51984931/)
 
-👤 **Author2**
+👤 **Peris Ndanu**
 
 - Github: [@mimipeshy](https://github.com/mimipeshy)
 - Linkedin: [Peris Ndanu](https://www.linkedin.com/in/peris-ndanu-405083193/)
