@@ -14,6 +14,9 @@
 
 
 def bubblesort(array)
+  if array.length <= 1
+    return array
+  end
   length = array.length - 1
   loop do 
     counter = false
